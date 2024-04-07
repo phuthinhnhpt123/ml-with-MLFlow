@@ -11,3 +11,70 @@
 7. Update the pipeline
 8. Update the main.py
 9. Update the app.py
+
+
+
+# How to run?
+### STEPS:
+
+Clone the repository
+
+```bash
+https://github.com/phuthinhnhpt123/ml-with-MLFlow
+```
+### STEP 01- Create a conda environment after opening the repository
+
+```bash
+conda create -n mlprj python=3.8 -y
+```
+
+```bash
+conda activate mlprj
+```
+
+
+### STEP 02- install the requirements
+```bash
+pip install -r requirements.txt
+```
+
+
+```bash
+# Finally run the following command
+python app.py
+```
+
+Now,
+```bash
+open up you local host and port
+```
+
+
+
+## MLflow
+
+[Documentation](https://mlflow.org/docs/latest/index.html)
+
+
+##### cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/phuthinhnhpt123/ml-with-MLFlow.mlflow \
+MLFLOW_TRACKING_USERNAME=phuthinhnhpt123 \
+MLFLOW_TRACKING_PASSWORD=258203de851984e7040704678c76c12bd899f3b1 \
+python script.py
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/phuthinhnhpt123/ml-with-MLFlow.mlflow
+
+export MLFLOW_TRACKING_USERNAME=phuthinhnhpt123 
+
+export MLFLOW_TRACKING_PASSWORD=258203de851984e7040704678c76c12bd899f3b1
+
+```
